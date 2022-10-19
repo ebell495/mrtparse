@@ -1,0 +1,6 @@
+project: mrtparse
+target: mrt_fuzz
+
+cmds:
+    - cmd: /mrtparse/fuzz/mrt_fuzz.py
+      libfuzzer: true
